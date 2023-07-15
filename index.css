@@ -1,0 +1,105 @@
+*{
+    padding: 0px;
+    margin: 0px;
+  }
+  body{
+    background-color: azure;
+  }
+  h1{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: green;
+    text-decoration: underline;
+  }
+  .container {
+      display: grid;
+      width: 400px;
+      height: 400px;
+      margin: 20px auto;
+      border: 2px solid #555252;
+      
+    }
+    .controls {
+      text-align: center;
+      margin-bottom: 20px;
+      position: relative;
+    
+    }
+  .modifing-btn{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 15rem;
+    top: 7rem;
+  justify-content: center;
+  align-items: center;
+  
+  
+  }
+  .grid-size-button, .reset-button, .clear-button{
+    width: 120px;
+    height: 40px;
+    margin-bottom: 1rem;
+    border:1px solid gray ;
+    border-radius: 10px;
+  
+  }
+    
+    .grid-cell {
+      background-color: #fff;
+      border: 1px solid #ccc;
+    }
+    
+   
+    
+    .button {
+      margin-right: 10px;
+    }
+    
+    .color-button {
+      padding: 5px 10px;
+      width: 100px;
+      border: 1px solid gray;
+      height: 40px;
+      margin-top: 2rem;
+      margin-right: 20px;
+      border-radius: 10px;
+    }
+    
+    .blue-button {
+      background-color: blue;
+      color: white;
+    }
+    .blue-button:hover{
+      background-color: white;
+      color: black;
+    }
+    
+    .green-button {
+      background-color: green;
+      color: white;
+    }
+    .green-button:hover{
+      background-color: white;
+      color: black;
+    }
+    
+    .red-button {
+      background-color: red;
+      color: white;
+    }
+    .red-button:hover{
+      background-color: white;
+      color: black;
+    }
+    .grid-size-button{
+      background-color: rgb(33, 228, 26);
+     
+    }
+   
+   .modifing-btn> .btn:hover{
+    background-color: transparent;
+    
+   }
+  
